@@ -1,0 +1,23 @@
+{
+	"indentation": {
+		"tabWidth": 2
+	},
+	"sameLine": {
+		"ifBody": "same",
+		"elseBody": "same",
+		"ifElse": "keep"
+	},
+	"wrapping": {
+		"maxLineLength": 100,
+		"arrayMatrixWrap": "matrixWrapNoAlign",
+		"arrayWrap": {
+			"defaultWrap": "keep"
+		},
+		"functionSignature": {
+			"defaultWrap": "keep"
+		},
+		"callParameter": {
+			"defaultWrap": "keep"
+		}
+	}
+}

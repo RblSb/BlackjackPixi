@@ -1,0 +1,20 @@
+--class-path src
+--library pixijs
+--library actuate
+--library signals
+--main Main
+--js build/main.js
+-D analyzer-optimize
+--dce full
+# --resource res/audio.mp3@audio_mp3
+# --resource res/audio.json@audio_json
+# --resource res/bg.jpg@bg
+# --resource res/bg_h.jpg@bg_h
+# --resource res/bg_v.jpg@bg_v
+# --resource res/res.json@res_json
+# --resource res/res.png@res_png
+# -D res=res/res.json
+-D res=build/res.json
+# -D audiores=res/audio.json
+# -D no_sound
+--debug

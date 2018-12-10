@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "dependencies": {
+    "light-server": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "light-server -s build -p 4200 -w \"build/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
